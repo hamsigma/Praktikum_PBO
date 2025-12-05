@@ -1,4 +1,4 @@
-# Refactoring: Sistem Validasi Registrasi Mahasiswa (Satu-file Good + Bad terpisah)
+# Refactoring: Sistem Validasi Registrasi Mahasiswa
 
 Indetifikiasi
 - SRP (Single Responsibility Principle)
@@ -45,4 +45,5 @@ Dependency Injection (DI) vs if/else — penjelasan singkat:
     Testability: DI memudahkan mocking dan pengujian unit per-rule; if/else menyulitkan pengujian karena method jadi besar dan kompleks.
     Fleksibilitas runtime: Dengan DI, perilaku bisa diubah lewat konfigurasi/komposisi tanpa menyentuh kode koordinator.
     Intinya: DI mengurangi coupling dan risiko regresi, sementara if/else cenderung menimbun code smell saat fitur tumbuh.
+
 
